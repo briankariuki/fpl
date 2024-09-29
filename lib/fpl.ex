@@ -20,7 +20,9 @@ defmodule Fpl do
   alias Fpl.Types.H2HLeague
 
   @doc """
-  Fetches a summary of the data available. This data includes:
+  Fetches a summary of the data available.
+
+  This data includes:
 
     * A summary of all 38 events
     * The game’s settings
@@ -42,7 +44,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches all fixtures. Per match, it shows:
+  Fetches all fixtures.
+
+  Per match, it shows:
     * Goals
     * Assists
     * Cards
@@ -79,7 +83,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches the player element summary data which comprises of  including past performance and upcoming fixtures. This includes:
+  Fetches the player element summary data which comprises of  including past performance and upcoming fixtures.
+
+  This includes:
 
   Remaining fixtures for the player, including:
     * Kickoff time
@@ -147,7 +153,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches the classic league's data which includes the entrys within the league, showing their relative ranking and high level data for each and is paginated. This includes:
+  Fetches the classic league's data which includes the entrys within the league, showing their relative ranking and high level data for each and is paginated.
+
+  This includes:
 
   * League name
   * Date created
@@ -176,7 +184,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches the head-to-head league's data which includes the entrys within the league, showing their relative ranking and high level data for each. This includes:
+  Fetches the head-to-head league's data which includes the entrys within the league, showing their relative ranking and high level data for each.
+
+  This includes:
 
   * New entries
   * Last updated data
@@ -224,7 +234,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches information on any individual Fpl entry using their id. This data includes:
+  Fetches information on any individual Fpl entry using their id.
+
+  This data includes:
 
   * Name
   * Team Name
@@ -257,7 +269,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches high level stats for each event gone by, plus the entry’s overall career performance form previous seasons. This data includes:
+  Fetches high level stats for each event gone by, plus the entry’s overall career performance form previous seasons.
+
+  This data includes:
 
   Event-by-event data, including:
     * Points
@@ -286,7 +300,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches the entry's details of 15 players for a given event. This data includes:
+  Fetches the entry's details of 15 players for a given event.
+
+  This data includes:
 
   The general info for the event, such as:
     * Points
@@ -315,7 +331,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches the entry's full history of transfers. This data includes:
+  Fetches the entry's full history of transfers.
+
+  This data includes:
 
   * Cost
   * Event
@@ -379,7 +397,9 @@ defmodule Fpl do
   end
 
   @doc """
-  Fetches the dream team for the given event. This data includes:
+  Fetches the dream team for the given event.
+
+  This data includes:
 
   * Top player
   * Top elements in the team
