@@ -59,4 +59,7 @@ iex> Fpl.get_entry_picks("1001", "1")
    ]
  }}
 ```
+## Docs 
+
+Documentation for the available methods can be found at [https://hexdocs.pm/fpl/0.1.0/Fpl.html](https://hexdocs.pm/fpl/0.1.0/Fpl.html)
 
