@@ -55,7 +55,7 @@ iex> Fpl.get_entry_picks("1001", "1")
        is_vice_captain: false,
        multiplier: 1
      },
-     ....
+     ...
    ]
  }}
 ```
