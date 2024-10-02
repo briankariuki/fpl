@@ -700,6 +700,7 @@ defmodule Fpl do
       {:ok, league}
 
   """
+  @deprecated "Head to head leagues are no longer available from the 24/25 season."
   @spec get_head_to_head_league(league_id :: String.t(), page :: String.t()) ::
           {:ok, H2HLeague.t()} | {:error, :any}
   def get_head_to_head_league(league_id, page) do
