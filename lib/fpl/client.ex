@@ -18,7 +18,7 @@ defmodule Fpl.Client do
     middleware = [
       {Tesla.Middleware.BaseUrl, base_url},
       Tesla.Middleware.JSON,
-      Tesla.Middleware.Logger,
+      # Tesla.Middleware.Logger,
       Tesla.Middleware.Retry,
       {Tesla.Middleware.Headers,
        [
